@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  apache:
+    image: httpd
+    ports:
+    - "80:80"
+    - "443:443"
+    container_name: "apache"
+
+  cas:
+    build: .
+    container_name: "cas"

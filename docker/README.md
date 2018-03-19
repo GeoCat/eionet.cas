@@ -6,9 +6,9 @@ First build image:
 cd ../ && ./build_image.
 ```
 
-Then run container:
+Then run orchestration:
 
 ```bash
 
-docker run --name cas-server -d -p 8080:8080 eionet.cas
+docker-compose up -d
 ```

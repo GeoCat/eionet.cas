@@ -1,4 +1,3 @@
-#!/bin/sh
 
 First build image:
 

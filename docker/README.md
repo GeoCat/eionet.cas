@@ -3,7 +3,7 @@ First build image:
 
 ```bash
 
-cd ../ && ./build_image.
+cd ../ && ./build_image.sh
 ```
 
 Then run orchestration:
